@@ -7,7 +7,7 @@ Running the files require Python 2.7, MATLAB and all files found in this reposit
 
 In order to generate the verification case study, run the "Barrier_Verification.py" file. In order to generate the synthesis case study, run the "Barrier_Synthesis.py" file.
 
-The file "pqfile.mat" and pqfile_under.mat" contain under and over approximations of the unit squared center at the origin, which is used to approximate any state in the partition as detailed in the paper.
+The files "pqfile.mat" and pqfile_under.mat" contain under and over approximations of the unit squared center at the origin, which is used to approximate any state in the partition as detailed in the paper.
 
 Note that these files are unparallelized version of the code. In order to speed up the runtime, feel free to parallelize the loops in the function "Probability_Interval_Computation_Barrier" in the file "Barrier_Verification_Functions.py", and the loops in the functions "BMDP_Probability_Interval_Computation_Barrier" in the file "Barrier_Synthesis_Functions.py".
 
